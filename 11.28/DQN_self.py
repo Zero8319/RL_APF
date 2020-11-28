@@ -100,7 +100,7 @@ class DQN(object):
 dqn = DQN()
 
 print('\nCollecting experience...')
-for i_episode in range(5000):
+for i_episode in range(6000000):
     state = env.reset()
     episode_return = 0
     while True:
