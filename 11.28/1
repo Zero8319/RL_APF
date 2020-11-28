@@ -1,5 +1,0 @@
-import torch
-a=torch.tensor([1.,2.],requires_grad=True)
-b=a*2
-c=max(b)
-c.backward()
